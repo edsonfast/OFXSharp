@@ -20,5 +20,10 @@ namespace OFXSharp.Tests
             var parser = new OFXDocumentParser();
             var ofxDocument = parser.Import(new FileStream(@"santander.ofx", FileMode.Open));
         }
+
+        public void CanParserBradesco() {
+            var parser = new OFXDocumentParser();
+            var ofxDocument = parser.Import(new FileStream(@"bradesco.ofx", FileMode.Open));
+        }
     }
 }

@@ -43,6 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bradesco.ofx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="itau.ofx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

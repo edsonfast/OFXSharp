@@ -32,7 +32,7 @@ namespace OFXSharp
       {
          try
          {
-            if (date.Length < 8)
+            if (date.Length < 8 || date.Substring(0, 4) == "0000")
             {
                return new DateTime();
             }
